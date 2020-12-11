@@ -1,2 +1,2 @@
-# C-SDL
-making games
+# C++SDL
+making games с++
