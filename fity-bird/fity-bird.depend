@@ -1,0 +1,566 @@
+# depslib dependency file v1.0
+1603714835 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\collision.cpp
+	"Collision.h"
+
+1605601609 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\collision.h
+	<SDL.h>
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\begin_code.h
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\close_code.h
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_windows.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_psp.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_os2.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1605363228 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\gamemanager.cpp
+	"GameManager.h"
+
+1605103387 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\gamemanager.h
+	"Graphics.h"
+	"ScreenManager.h"
+	"Timer.h"
+
+1605370887 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\graphics.h
+	<SDL.h>
+	<string>
+	<stdio.h>
+	<iostream>
+	<SDL_ttf.h>
+	<SDL_image.h>
+
+1547322290 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1605627127 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\screenmanager.h
+	"StartScreen.h"
+	"PlayScreen.h"
+	"Collision.h"
+	"Score.h"
+	"Countdown.h"
+	"BackPlane.h"
+	"SDL2SoundEffets.h"
+	"AudioManager.h"
+
+1605619858 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\startscreen.h
+	"Texture.h"
+	<iostream>
+	"InputManager.h"
+	"Collision.h"
+	<vector>
+	<memory>
+
+1605286412 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\texture.h
+	"Graphics.h"
+
+1604412854 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\inputmanager.h
+	<SDL.h>
+	"MathHelper.h"
+
+1604412302 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\mathhelper.h
+	<math.h>
+
+1605631486 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\playscreen.h
+	<vector>
+	<iostream>
+	<memory>
+	"Bird.h"
+	"Collision.h"
+	<cstring>
+
+1604741977 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\graphics.cpp
+	"Graphics.h"
+
+1604412321 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\inputmanager.cpp
+	<string.h>
+	"InputManager.h"
+
+1605275178 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\main.cpp
+	"GameManager.h"
+
+1605631910 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\playscreen.cpp
+	"PlayScreen.h"
+	"StartScreen.h"
+
+1605627226 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\screenmanager.cpp
+	"ScreenManager.h"
+
+1605619738 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\startscreen.cpp
+	"StartScreen.h"
+
+1605286412 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\texture.cpp
+	"Texture.h"
+
+1561870368 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1605033697 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\timer.h
+	<SDL.h>
+
+1605033697 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\timer.cpp
+	"Timer.h"
+
+1605445177 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\tube.h
+	"Texture.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1605445446 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\tube.cpp
+	"Tube.h"
+
+1605285693 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\pipepair.cpp
+	"PipePair.h"
+
+1605285577 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\pipepair.h
+	"Tube.h"
+
+1605626696 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\bird.h
+	"Tube.h"
+	"InputManager.h"
+	"AudioManager.h"
+
+1605627321 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\bird.cpp
+	"Bird.h"
+
+1605613247 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\score.cpp
+	"Score.h"
+
+1605603310 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\score.h
+	"Texture.h"
+	"Collision.h"
+	"InputManager.h"
+	<cstring>
+
+1605617443 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\countdown.cpp
+	"Countdown.h"
+
+1605617443 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\countdown.h
+	"Texture.h"
+	"Collision.h"
+	"Timer.h"
+	<iostream>
+	<cstring>
+
+1605613964 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\backplane.cpp
+	"BackPlane.h"
+
+1605613880 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\backplane.h
+	"Collision.h"
+	"Texture.h"
+
+1605624568 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\sdl2soundeffets.cpp
+	"SDL2SoundEffets.h"
+
+1605623475 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\sdl2soundeffets.h
+	"SDL_mixer.h"
+	"SDL.h"
+	<stdio.h>
+	<iostream>
+	<vector>
+
+1540997992 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1605626837 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\audiomanager.cpp
+	"AudioManager.h"
+
+1605626582 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\fity-bird\audiomanager.h
+	"SDL_mixer.h"
+	"SDL.h"
+	<string>
+	<iostream>
+
