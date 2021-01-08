@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="brekout" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/brekout" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../Pong_SDL_1" />
+					<Add directory="../fity-bird" />
+					<Add directory="../zelda" />
+					<Add directory="include" />
+					<Add directory="../brekout" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/brekout" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../Pong_SDL_1" />
+					<Add directory="../fity-bird" />
+					<Add directory="../zelda" />
+					<Add directory="include" />
+					<Add directory="../brekout" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Users/dmitry_Shu/Desktop/SDL2-2.0.12/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDL2main" />
+			<Add library="SDL2" />
+			<Add library="SDL2_image" />
+			<Add library="SDL2_ttf" />
+			<Add library="SDL2_mixer" />
+			<Add directory="C:/Users/dmitry_Shu/Desktop/SDL2-2.0.12/build" />
+		</Linker>
+		<Unit filename="AudioManager.cpp" />
+		<Unit filename="AudioManager.h" />
+		<Unit filename="Background.cpp" />
+		<Unit filename="Background.h" />
+		<Unit filename="Ball.cpp" />
+		<Unit filename="Ball.h" />
+		<Unit filename="Brick.cpp" />
+		<Unit filename="Brick.h" />
+		<Unit filename="Collision.cpp" />
+		<Unit filename="Collision.h" />
+		<Unit filename="Countdown.h" />
+		<Unit filename="GameManager.cpp" />
+		<Unit filename="GameManager.h" />
+		<Unit filename="GameOverScreen.cpp" />
+		<Unit filename="GameOverScreen.h" />
+		<Unit filename="Graphics.cpp" />
+		<Unit filename="Graphics.h" />
+		<Unit filename="Health.cpp" />
+		<Unit filename="Health.h" />
+		<Unit filename="HighScoreScreen.cpp" />
+		<Unit filename="HighScoreScreen.h" />
+		<Unit filename="InputManager.cpp" />
+		<Unit filename="InputManager.h" />
+		<Unit filename="LevelMaker.cpp" />
+		<Unit filename="LevelMaker.h" />
+		<Unit filename="MathHelper.h" />
+		<Unit filename="Paddle.cpp" />
+		<Unit filename="Paddle.h" />
+		<Unit filename="Particle.cpp" />
+		<Unit filename="Particle.h" />
+		<Unit filename="PlayScreen.cpp" />
+		<Unit filename="PlayScreen.h" />
+		<Unit filename="ScreenManager.cpp" />
+		<Unit filename="ScreenManager.h" />
+		<Unit filename="ServeScreen.cpp" />
+		<Unit filename="ServeScreen.h" />
+		<Unit filename="StartScreen.cpp" />
+		<Unit filename="StartScreen.h" />
+		<Unit filename="Texture.cpp" />
+		<Unit filename="Texture.h" />
+		<Unit filename="Timer.cpp" />
+		<Unit filename="Timer.h" />
+		<Unit filename="VictoryScreen.cpp" />
+		<Unit filename="VictoryScreen.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

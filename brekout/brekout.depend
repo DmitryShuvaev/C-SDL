@@ -1,0 +1,1165 @@
+# depslib dependency file v1.0
+1605666438 source:f:\fltk_code_blocks\testcode\sdl_projects\brekout\audiomanager.cpp
+	"AudioManager.h"
+
+1605666184 f:\fltk_code_blocks\testcode\sdl_projects\brekout\audiomanager.h
+	"SDL_mixer.h"
+	"SDL.h"
+	<string>
+	<iostream>
+
+1541030392 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\begin_code.h
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\close_code.h
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_windows.h
+	"SDL_platform.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_psp.h
+	"SDL_platform.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_os2.h
+	"SDL_platform.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583922978 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1603750836 source:f:\fltk_code_blocks\testcode\sdl_projects\brekout\collision.cpp
+	"Collision.h"
+
+1605819512 f:\fltk_code_blocks\testcode\sdl_projects\brekout\collision.h
+	<SDL.h>
+
+1605819000 source:f:\fltk_code_blocks\testcode\sdl_projects\brekout\gamemanager.cpp
+	"GameManager.h"
+
+1605833444 f:\fltk_code_blocks\testcode\sdl_projects\brekout\gamemanager.h
+	"Graphics.h"
+	"ScreenManager.h"
+	"Timer.h"
+	<time.h>
+
+1608963229 f:\fltk_code_blocks\testcode\sdl_projects\brekout\graphics.h
+	<SDL.h>
+	<string>
+	<stdio.h>
+	<iostream>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	"Collision.h"
+
+1547358290 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561902768 f:\fltk_code_blocks\sdl2-2.0.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1605833718 f:\fltk_code_blocks\testcode\sdl_projects\brekout\screenmanager.h
+	"StartScreen.h"
+	"PlayScreen.h"
+	"Collision.h"
+	"AudioManager.h"
+
+1608961456 f:\fltk_code_blocks\testcode\sdl_projects\brekout\startscreen.h
+	"Texture.h"
+	<iostream>
+	"InputManager.h"
+	"Collision.h"
+	<vector>
+	<memory>
+
+1608962082 f:\fltk_code_blocks\testcode\sdl_projects\brekout\texture.h
+	"Graphics.h"
+
+1604452456 f:\fltk_code_blocks\testcode\sdl_projects\brekout\inputmanager.h
+	<SDL.h>
+	"MathHelper.h"
+
+1604451904 f:\fltk_code_blocks\testcode\sdl_projects\brekout\mathhelper.h
+	<math.h>
+
+1608956064 f:\fltk_code_blocks\testcode\sdl_projects\brekout\playscreen.h
+	<vector>
+	<iostream>
+	<memory>
+	"Texture.h"
+	"Collision.h"
+	"AudioManager.h"
+	<cstring>
+	"InputManager.h"
+	"Room.h"
+
+1009875590 f:\fltk_code_blocks\testcode\sdl_projects\brekout\room.h
+	<vector>
+	<iostream>
+	<memory>
+	"Texture.h"
+	"Collision.h"
+	<cstring>
+
+1605073298 f:\fltk_code_blocks\testcode\sdl_projects\brekout\timer.h
+	<SDL.h>
+
+1608960519 source:f:\fltk_code_blocks\testcode\sdl_projects\brekout\graphics.cpp
+	"Graphics.h"
+
+1604451922 source:f:\fltk_code_blocks\testcode\sdl_projects\brekout\inputmanager.cpp
+	<string.h>
+	"InputManager.h"
+
+1608961243 source:f:\fltk_code_blocks\testcode\sdl_projects\brekout\main.cpp
+	"GameManager.h"
+
+1608956021 source:f:\fltk_code_blocks\testcode\sdl_projects\brekout\playscreen.cpp
+	"PlayScreen.h"
+	"StartScreen.h"
+
+1608781286 source:f:\fltk_code_blocks\testcode\sdl_projects\brekout\screenmanager.cpp
+	"ScreenManager.h"
+
+1608961789 source:f:\fltk_code_blocks\testcode\sdl_projects\brekout\startscreen.cpp
+	"StartScreen.h"
+
+1608961027 source:f:\fltk_code_blocks\testcode\sdl_projects\brekout\texture.cpp
+	"Texture.h"
+
+1605073298 source:f:\fltk_code_blocks\testcode\sdl_projects\brekout\timer.cpp
+	"Timer.h"
+
+1605626838 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\audiomanager.cpp
+	"AudioManager.h"
+
+1605626584 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\audiomanager.h
+	"SDL_mixer.h"
+	"SDL.h"
+	<string>
+	<iostream>
+
+1603714836 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\collision.cpp
+	"Collision.h"
+
+1610106274 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\collision.h
+	<SDL.h>
+	<string>
+
+1609012959 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\gamemanager.cpp
+	"GameManager.h"
+
+1609012342 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\gamemanager.h
+	"Graphics.h"
+	"ScreenManager.h"
+	"Timer.h"
+	<time.h>
+	<sstream>
+	<cmath>
+
+1608923630 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\graphics.h
+	<SDL.h>
+	<string>
+	<stdio.h>
+	<iostream>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	"Collision.h"
+
+1610106429 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\screenmanager.h
+	"StartScreen.h"
+	"PlayScreen.h"
+	"ServeScreen.h"
+	"Collision.h"
+	"Background.h"
+	"AudioManager.h"
+	"Health.h"
+	"GameOverScreen.h"
+	"VictoryScreen.h"
+	"HighScoreScreen.h"
+	<sstream>
+	<iostream>
+	<fstream>
+
+1608990736 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\startscreen.h
+	"Texture.h"
+	<iostream>
+	"InputManager.h"
+	"Collision.h"
+	<vector>
+	<memory>
+	"AudioManager.h"
+
+1609855515 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\texture.h
+	"Graphics.h"
+
+1604412856 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\inputmanager.h
+	<SDL.h>
+	"MathHelper.h"
+
+1604412304 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\mathhelper.h
+	<math.h>
+
+1609957220 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\playscreen.h
+	<vector>
+	<iostream>
+	<memory>
+	"Texture.h"
+	"Collision.h"
+	"AudioManager.h"
+	<cstring>
+	"InputManager.h"
+	"Paddle.h"
+	"Ball.h"
+	"LevelMaker.h"
+	"Health.h"
+
+1009835990 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\room.h
+	<vector>
+	<iostream>
+	<memory>
+	"Texture.h"
+	"Collision.h"
+	<cstring>
+
+1605033698 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\timer.h
+	<SDL.h>
+
+1609077482 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\graphics.cpp
+	"Graphics.h"
+
+1604412322 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\inputmanager.cpp
+	<string.h>
+	"InputManager.h"
+
+1610108281 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\main.cpp
+	<iostream>
+	<fstream>
+	"GameManager.h"
+
+1610020990 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\playscreen.cpp
+	"PlayScreen.h"
+	"StartScreen.h"
+
+1610117843 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\screenmanager.cpp
+	"ScreenManager.h"
+
+1610117947 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\startscreen.cpp
+	"StartScreen.h"
+
+1609856076 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\texture.cpp
+	"Texture.h"
+
+1609001384 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\timer.cpp
+	"Timer.h"
+
+1540997992 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\begin_code.h
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\close_code.h
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_windows.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_psp.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_os2.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547322290 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561870368 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1608979162 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\src\background.cpp
+	"Background.h"
+
+1608979412 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\include\background.h
+	"Texture.h"
+	<iostream>
+	"InputManager.h"
+	"Collision.h"
+	<vector>
+	<memory>
+
+1603714835 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\pong_sdl_1\collision.h
+	<SDL.h>
+
+1604577159 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\pong_sdl_1\texture.h
+	"Graphics.h"
+
+1604502707 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\pong_sdl_1\graphics.h
+	<SDL.h>
+	<string>
+	<stdio.h>
+	<iostream>
+	<SDL_ttf.h>
+
+1604412854 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\pong_sdl_1\inputmanager.h
+	<SDL.h>
+	"MathHelper.h"
+
+1604412302 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\pong_sdl_1\mathhelper.h
+	<math.h>
+
+1608982833 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\background.h
+	"Texture.h"
+	"Collision.h"
+
+1608982787 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\background.cpp
+	"Background.h"
+
+1609498791 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\paddle.h
+	"Texture.h"
+	"InputManager.h"
+
+1609423811 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\paddle.cpp
+	"Paddle.h"
+
+1609502948 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\ball.cpp
+	"Ball.h"
+
+1609424593 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\ball.h
+	"Texture.h"
+	"Paddle.h"
+	"AudioManager.h"
+
+1609880769 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\brick.cpp
+	"Brick.h"
+
+1609860779 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\brick.h
+	"Texture.h"
+	"Particle.h"
+	"AudioManager.h"
+
+1609695893 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\levelmaker.h
+	"Brick.h"
+
+1609679302 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\levelmaker.cpp
+	"LevelMaker.h"
+
+1609502207 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\servescreen.h
+	"Texture.h"
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1610108205 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\servescreen.cpp
+	"ServeScreen.h"
+
+1609512601 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\health.cpp
+	"Health.h"
+
+1609507445 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\health.h
+	"Texture.h"
+
+1609961745 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\gameoverscreen.cpp
+	"GameOverScreen.h"
+
+1609961704 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\gameoverscreen.h
+	"Texture.h"
+	"InputManager.h"
+	"Collision.h"
+	"PlayScreen.h"
+	<sstream>
+
+1609862389 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\particle.h
+	"Texture.h"
+
+1609959200 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\particle.cpp
+	"Particle.h"
+
+1609960186 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\victoryscreen.cpp
+	"VictoryScreen.h"
+
+1609958767 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\victoryscreen.h
+	"Texture.h"
+	"InputManager.h"
+	"Collision.h"
+	"PlayScreen.h"
+	<sstream>
+
+1610114384 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\highscorescreen.cpp
+	"HighScoreScreen.h"
+
+1610114084 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\highscorescreen.h
+	"Texture.h"
+	"Collision.h"
+	"InputManager.h"
+	<iostream>
+	<sstream>
+
