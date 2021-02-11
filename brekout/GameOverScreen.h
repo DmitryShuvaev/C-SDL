@@ -5,14 +5,14 @@
 #include "Collision.h"
 #include "PlayScreen.h"
 #include <sstream>
-
+#include "HighScoreScreen.h"
 class GameOverScreen:public Collision
 {
     public:
         GameOverScreen();
         virtual ~GameOverScreen();
 
-        void Update(SCREENS &mCurrentScreen,PlayScreen &mPlayScreen,int &score,Health &health,int&level);
+        void Update(SCREENS &mCurrentScreen,PlayScreen &mPlayScreen,int &score,Health &health,int&level,HighScores *mHighScores,int&highScoreIndex);
         void Render();
 const int FONT_SIZE=32*3;
 std::stringstream scoreText;

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="mario3" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/mario" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../Pong_SDL_1" />
+					<Add directory="../fity-bird" />
+					<Add directory="../zelda" />
+					<Add directory="include" />
+					<Add directory="../brekout" />
+					<Add directory="../mario" />
+					<Add directory="../mario1" />
+					<Add directory="../mario3" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/mario" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../Pong_SDL_1" />
+					<Add directory="../fity-bird" />
+					<Add directory="../zelda" />
+					<Add directory="include" />
+					<Add directory="../brekout" />
+					<Add directory="../mario" />
+					<Add directory="../mario1" />
+					<Add directory="../mario3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Users/dmitry_Shu/Desktop/SDL2-2.0.12/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDL2main" />
+			<Add library="SDL2" />
+			<Add library="SDL2_image" />
+			<Add library="SDL2_ttf" />
+			<Add library="SDL2_mixer" />
+			<Add directory="C:/Users/dmitry_Shu/Desktop/SDL2-2.0.12/build" />
+		</Linker>
+		<Unit filename="Animation.cpp" />
+		<Unit filename="Animation.h" />
+		<Unit filename="AudioManager.cpp" />
+		<Unit filename="AudioManager.h" />
+		<Unit filename="Brick.cpp" />
+		<Unit filename="Brick.h" />
+		<Unit filename="Character.cpp" />
+		<Unit filename="Character.h" />
+		<Unit filename="Collision.cpp" />
+		<Unit filename="Collision.h" />
+		<Unit filename="Countdown.h" />
+		<Unit filename="GameManager.cpp" />
+		<Unit filename="GameManager.h" />
+		<Unit filename="Gem.cpp" />
+		<Unit filename="Gem.h" />
+		<Unit filename="Graphics.cpp" />
+		<Unit filename="Graphics.h" />
+		<Unit filename="InputManager.cpp" />
+		<Unit filename="InputManager.h" />
+		<Unit filename="LevelMaker.cpp" />
+		<Unit filename="LevelMaker.h" />
+		<Unit filename="MathHelper.h" />
+		<Unit filename="PlayScreen.cpp" />
+		<Unit filename="PlayScreen.h" />
+		<Unit filename="PlayerFallingState.cpp" />
+		<Unit filename="PlayerFallingState.h" />
+		<Unit filename="PlayerIdleState.cpp" />
+		<Unit filename="PlayerIdleState.h" />
+		<Unit filename="PlayerJumpState.cpp" />
+		<Unit filename="PlayerJumpState.h" />
+		<Unit filename="PlayerWalkingState.cpp" />
+		<Unit filename="PlayerWalkingState.h" />
+		<Unit filename="ScreenManager.cpp" />
+		<Unit filename="ScreenManager.h" />
+		<Unit filename="Snail.cpp" />
+		<Unit filename="Snail.h" />
+		<Unit filename="SnailChasingState.cpp" />
+		<Unit filename="SnailChasingState.h" />
+		<Unit filename="SnailIdleState.cpp" />
+		<Unit filename="SnailIdleState.h" />
+		<Unit filename="SnailMovingState.cpp" />
+		<Unit filename="SnailMovingState.h" />
+		<Unit filename="StartScreen.cpp" />
+		<Unit filename="StartScreen.h" />
+		<Unit filename="Texture.cpp" />
+		<Unit filename="Texture.h" />
+		<Unit filename="TileMap.cpp" />
+		<Unit filename="TileMap.h" />
+		<Unit filename="Timer.cpp" />
+		<Unit filename="Timer.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

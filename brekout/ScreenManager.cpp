@@ -41,13 +41,20 @@ void ScreenManager::Update()
     mServeScreen->Update(mCurrentScreen,*mPlayScreen);
     break;
  case game_over:
-    mGameOverScreen->Update(mCurrentScreen,*mPlayScreen,scoreValue,*health,level);
+    mGameOverScreen->Update(mCurrentScreen,*mPlayScreen,scoreValue,*health,level,mHighScores,highScoreIndex);
+
     break;
  case victory:
     mVictoryScreen->Update(mCurrentScreen,scoreValue,*mPlayScreen,*health,level);
     break;
  case high_scores:
     mHighScoreScreen->Update(mCurrentScreen,mHighScores);
+    break;
+ case enter_high_score:
+    mEnterHighScoreScreen->Update(mCurrentScreen,mHighScores,highScoreIndex,scoreValue);
+    break;
+ case paddle_select:
+    mPaddleSelectScreen->Update(mCurrentScreen,*mPlayScreen);
     break;
  }
 }//
@@ -100,6 +107,12 @@ void ScreenManager::Render()
  case high_scores:
     mHighScoreScreen->Render();
     break;
+    case enter_high_score:
+    mEnterHighScoreScreen->Render();
+    break;
+    case paddle_select:
+       mPaddleSelectScreen->Render(*mPlayScreen);
+        break;
 
  }
 }
@@ -114,10 +127,15 @@ ScreenManager::ScreenManager()
     mGameOverScreen=new GameOverScreen();
     mVictoryScreen=new VictoryScreen();
     mHighScoreScreen=new HighScoreScreen();
+    mEnterHighScoreScreen=new EnterHighScoreScreen();
+    mPaddleSelectScreen=new PaddleSelectScreen();
     health=new Health();
     mCurrentScreen=start;
-    //mCurrentScreen=high_scores;
+    //mCurrentScreen=enter_high_score;
+    //mCurrentScreen=game_over;
+    //mCurrentScreen=paddle_select;
     background=new Background();
+    //padlle=new Paddle();
     mscore=new Texture("fonts/font.ttf","Score",8*3,{255,255,255});
     mscore->SetXY(WINDOW_WIDTH - 60*3,
                     5*3);
@@ -145,6 +163,10 @@ ScreenManager::~ScreenManager()
     mVictoryScreen=NULL;
     delete mHighScoreScreen;
     mHighScoreScreen=NULL;
+    delete mEnterHighScoreScreen;
+    mEnterHighScoreScreen=NULL;
+    delete mPaddleSelectScreen;
+    mPaddleSelectScreen=NULL;
 }
 void ScreenManager::Readfromfile()
 {

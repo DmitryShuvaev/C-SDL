@@ -7,7 +7,7 @@
 class Collision
 {
     public:
-          enum SCREENS{start,play,score,serve,game_over,victory,high_scores};
+          enum SCREENS{start,play,score,serve,game_over,victory,high_scores,enter_high_score,paddle_select};
         static bool AABB(const SDL_Rect&recA,const SDL_Rect&recB);
 struct HighScores
 {

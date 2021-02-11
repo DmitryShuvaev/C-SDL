@@ -46,6 +46,9 @@ void Texture::SetColor(SDL_Color color)
   mTex=NULL;
   }
   mTex=mGraphics->CreateTextTexture(font,text,color);
+    SDL_QueryTexture(mTex,NULL,NULL,&mWidth,&mHeight);
+    mRenderRect.w=mWidth;
+    mRenderRect.h=mHeight;
 }
 //
 void Texture::setAlpha( Uint8 alpha )
@@ -60,7 +63,11 @@ void Texture::SetText(std::string text,SDL_Color color)
    if(mTex!=NULL){SDL_DestroyTexture(mTex);
   mTex=NULL;
   }
-  mTex=mGraphics->CreateTextTexture(font,text,color);
+  //std::stringstream scoreText;
+
+    this->text=strcpy((char*)malloc(text.length()+1), text.c_str());
+  //cout<<text;
+  mTex=mGraphics->CreateTextTexture(font,this->text,color);
   SDL_QueryTexture(mTex,NULL,NULL,&mWidth,&mHeight);
       mRenderRect.w=mWidth;
     mRenderRect.h=mHeight;

@@ -1,8 +1,12 @@
 #ifndef TEXTURE_H
 #define TEXTURE_H
-
+#include <iostream>
 #include "Graphics.h"
-
+#include <sstream>
+#include <stdio.h>
+#include <cstring>
+#include <string>
+using namespace std;
 class Texture
 {
     public:

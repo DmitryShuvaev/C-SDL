@@ -62,6 +62,8 @@
 		<Unit filename="Collision.cpp" />
 		<Unit filename="Collision.h" />
 		<Unit filename="Countdown.h" />
+		<Unit filename="EnterHighScoreScreen.cpp" />
+		<Unit filename="EnterHighScoreScreen.h" />
 		<Unit filename="GameManager.cpp" />
 		<Unit filename="GameManager.h" />
 		<Unit filename="GameOverScreen.cpp" />
@@ -79,6 +81,8 @@
 		<Unit filename="MathHelper.h" />
 		<Unit filename="Paddle.cpp" />
 		<Unit filename="Paddle.h" />
+		<Unit filename="PaddleSelectScreen.cpp" />
+		<Unit filename="PaddleSelectScreen.h" />
 		<Unit filename="Particle.cpp" />
 		<Unit filename="Particle.h" />
 		<Unit filename="PlayScreen.cpp" />

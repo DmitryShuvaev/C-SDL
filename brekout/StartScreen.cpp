@@ -29,7 +29,7 @@ void StartScreen::Update(SCREENS &mCurrentScreen)
         if(highlighted==1)
         {
 
-         mCurrentScreen=serve;
+         mCurrentScreen=paddle_select;
         }
         else if(highlighted==2)
         {
@@ -44,7 +44,7 @@ void StartScreen::Update(SCREENS &mCurrentScreen)
         if(highlighted==1)
         {
 
-         mCurrentScreen=serve;
+         mCurrentScreen=paddle_select;
         }
 
     }

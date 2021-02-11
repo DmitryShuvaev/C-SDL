@@ -44,17 +44,37 @@ HighScoreScreen::~HighScoreScreen()
       this->mScores[i]=NULL;
     }
 }
-void HighScoreScreen::Update(SCREENS &mCurrentScreen,const HighScores *highScores)
+void HighScoreScreen::Update(SCREENS &mCurrentScreen, HighScores *mHighScores)
 {
     mInput->Update();
+    if(notReaded)
+    {
+      notReaded=false;
+        //read from file
+        std::ifstream fin("Names.txt");
+        if (!fin) {std::cerr<<"error\n"; return ;}
+        int i=0;
+        std::string line;
+        while (std::getline(fin, line)) {
+
+            std::istringstream iss(line);
+            iss >> mHighScores[i].name  >> mHighScores[i].score ;
+            if (!iss) {
+             std::cerr<<"error\n";
+            }
+            i++;
+        }//end while
+    }//
+
     if(mInput->KeyPressed(SDL_SCANCODE_ESCAPE))
     {
+        notReaded=true;
      mCurrentScreen=start;
     }
     for (int i=0; i<10; i++)
     {
-     this->mNames[i]->SetText(highScores[i].name,{255,255,255});
-     this->mScores[i]->SetText(highScores[i].score,{255,255,255});
+     this->mNames[i]->SetText(mHighScores[i].name,{255,255,255});
+     this->mScores[i]->SetText(mHighScores[i].score,{255,255,255});
     }
 }
 void HighScoreScreen::Render()

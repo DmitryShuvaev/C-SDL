@@ -5,13 +5,15 @@
 #include "InputManager.h"
 #include <iostream>
 #include <sstream>
+#include <fstream>
+
 using namespace std;
 class HighScoreScreen:public Collision
 {
     public:
         HighScoreScreen();
         virtual ~HighScoreScreen();
-        void Update(SCREENS &mCurrentScreen,const HighScores *HighScores);
+        void Update(SCREENS &mCurrentScreen, HighScores *mHighScores);
         void Render();
 
     private:
@@ -22,6 +24,7 @@ class HighScoreScreen:public Collision
         Texture *mNames[10];
         Texture *mScores[10];
         Texture*lowtitle;
+        bool notReaded=true;
 };
 
 #endif // HIGHSCORESCREEN_H

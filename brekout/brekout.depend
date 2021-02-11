@@ -525,7 +525,7 @@
 1603714836 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\collision.cpp
 	"Collision.h"
 
-1610106274 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\collision.h
+1610446622 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\collision.h
 	<SDL.h>
 	<string>
 
@@ -549,7 +549,7 @@
 	<SDL_image.h>
 	"Collision.h"
 
-1610106429 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\screenmanager.h
+1610454461 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\screenmanager.h
 	"StartScreen.h"
 	"PlayScreen.h"
 	"ServeScreen.h"
@@ -560,6 +560,8 @@
 	"GameOverScreen.h"
 	"VictoryScreen.h"
 	"HighScoreScreen.h"
+	"EnterHighScoreScreen.h"
+	"PaddleSelectScreen.h"
 	<sstream>
 	<iostream>
 	<fstream>
@@ -573,8 +575,13 @@
 	<memory>
 	"AudioManager.h"
 
-1609855515 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\texture.h
+1610210723 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\texture.h
+	<iostream>
 	"Graphics.h"
+	<sstream>
+	<stdio.h>
+	<cstring>
+	<string>
 
 1604412856 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\inputmanager.h
 	<SDL.h>
@@ -624,13 +631,13 @@
 	"PlayScreen.h"
 	"StartScreen.h"
 
-1610117843 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\screenmanager.cpp
+1610458263 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\screenmanager.cpp
 	"ScreenManager.h"
 
-1610117947 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\startscreen.cpp
+1610458493 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\startscreen.cpp
 	"StartScreen.h"
 
-1609856076 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\texture.cpp
+1610211177 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\texture.cpp
 	"Texture.h"
 
 1609001384 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\timer.cpp
@@ -1127,15 +1134,16 @@
 1609507445 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\health.h
 	"Texture.h"
 
-1609961745 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\gameoverscreen.cpp
+1610390313 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\gameoverscreen.cpp
 	"GameOverScreen.h"
 
-1609961704 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\gameoverscreen.h
+1610218164 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\gameoverscreen.h
 	"Texture.h"
 	"InputManager.h"
 	"Collision.h"
 	"PlayScreen.h"
 	<sstream>
+	"HighScoreScreen.h"
 
 1609862389 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\particle.h
 	"Texture.h"
@@ -1153,13 +1161,269 @@
 	"PlayScreen.h"
 	<sstream>
 
-1610114384 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\highscorescreen.cpp
+1610384611 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\highscorescreen.cpp
 	"HighScoreScreen.h"
 
-1610114084 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\highscorescreen.h
+1610284820 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\highscorescreen.h
 	"Texture.h"
 	"Collision.h"
 	"InputManager.h"
 	<iostream>
 	<sstream>
+	<fstream>
+
+1610285275 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\enterhighscorescreen.cpp
+	"EnterHighScoreScreen.h"
+
+1610284820 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\enterhighscorescreen.h
+	"Texture.h"
+	"Collision.h"
+	"InputManager.h"
+	<string>
+	<iostream>
+	<sstream>
+	<fstream>
+
+1610458263 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\paddleselectscreen.cpp
+	"PaddleSelectScreen.h"
+
+1610458296 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\brekout\paddleselectscreen.h
+	"Collision.h"
+	"Texture.h"
+	"InputManager.h"
+	"Paddle.h"
+	"PlayScreen.h"
+
+1605626838 source:d:\gitrep\c-plus-plus-sdl\brekout\audiomanager.cpp
+	"AudioManager.h"
+
+1605626584 d:\gitrep\c-plus-plus-sdl\brekout\audiomanager.h
+	"SDL_mixer.h"
+	"SDL.h"
+	<string>
+	<iostream>
+
+1608982787 source:d:\gitrep\c-plus-plus-sdl\brekout\background.cpp
+	"Background.h"
+
+1608982833 d:\gitrep\c-plus-plus-sdl\brekout\background.h
+	"Texture.h"
+	"Collision.h"
+
+1610210723 d:\gitrep\c-plus-plus-sdl\brekout\texture.h
+	<iostream>
+	"Graphics.h"
+	<sstream>
+	<stdio.h>
+	<cstring>
+	<string>
+
+1608923630 d:\gitrep\c-plus-plus-sdl\brekout\graphics.h
+	<SDL.h>
+	<string>
+	<stdio.h>
+	<iostream>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	"Collision.h"
+
+1610446622 d:\gitrep\c-plus-plus-sdl\brekout\collision.h
+	<SDL.h>
+	<string>
+
+1609502948 source:d:\gitrep\c-plus-plus-sdl\brekout\ball.cpp
+	"Ball.h"
+
+1609424593 d:\gitrep\c-plus-plus-sdl\brekout\ball.h
+	"Texture.h"
+	"Paddle.h"
+	"AudioManager.h"
+
+1609498791 d:\gitrep\c-plus-plus-sdl\brekout\paddle.h
+	"Texture.h"
+	"InputManager.h"
+
+1604412856 d:\gitrep\c-plus-plus-sdl\brekout\inputmanager.h
+	<SDL.h>
+	"MathHelper.h"
+
+1604412304 d:\gitrep\c-plus-plus-sdl\brekout\mathhelper.h
+	<math.h>
+
+1609880769 source:d:\gitrep\c-plus-plus-sdl\brekout\brick.cpp
+	"Brick.h"
+
+1609860779 d:\gitrep\c-plus-plus-sdl\brekout\brick.h
+	"Texture.h"
+	"Particle.h"
+	"AudioManager.h"
+
+1609862389 d:\gitrep\c-plus-plus-sdl\brekout\particle.h
+	"Texture.h"
+
+1603714836 source:d:\gitrep\c-plus-plus-sdl\brekout\collision.cpp
+	"Collision.h"
+
+1610285275 source:d:\gitrep\c-plus-plus-sdl\brekout\enterhighscorescreen.cpp
+	"EnterHighScoreScreen.h"
+
+1610284820 d:\gitrep\c-plus-plus-sdl\brekout\enterhighscorescreen.h
+	"Texture.h"
+	"Collision.h"
+	"InputManager.h"
+	<string>
+	<iostream>
+	<sstream>
+	<fstream>
+
+1609012959 source:d:\gitrep\c-plus-plus-sdl\brekout\gamemanager.cpp
+	"GameManager.h"
+
+1609012342 d:\gitrep\c-plus-plus-sdl\brekout\gamemanager.h
+	"Graphics.h"
+	"ScreenManager.h"
+	"Timer.h"
+	<time.h>
+	<sstream>
+	<cmath>
+
+1610454461 d:\gitrep\c-plus-plus-sdl\brekout\screenmanager.h
+	"StartScreen.h"
+	"PlayScreen.h"
+	"ServeScreen.h"
+	"Collision.h"
+	"Background.h"
+	"AudioManager.h"
+	"Health.h"
+	"GameOverScreen.h"
+	"VictoryScreen.h"
+	"HighScoreScreen.h"
+	"EnterHighScoreScreen.h"
+	"PaddleSelectScreen.h"
+	<sstream>
+	<iostream>
+	<fstream>
+
+1608990736 d:\gitrep\c-plus-plus-sdl\brekout\startscreen.h
+	"Texture.h"
+	<iostream>
+	"InputManager.h"
+	"Collision.h"
+	<vector>
+	<memory>
+	"AudioManager.h"
+
+1609957220 d:\gitrep\c-plus-plus-sdl\brekout\playscreen.h
+	<vector>
+	<iostream>
+	<memory>
+	"Texture.h"
+	"Collision.h"
+	"AudioManager.h"
+	<cstring>
+	"InputManager.h"
+	"Paddle.h"
+	"Ball.h"
+	"LevelMaker.h"
+	"Health.h"
+
+1609695893 d:\gitrep\c-plus-plus-sdl\brekout\levelmaker.h
+	"Brick.h"
+
+1609507445 d:\gitrep\c-plus-plus-sdl\brekout\health.h
+	"Texture.h"
+
+1609502207 d:\gitrep\c-plus-plus-sdl\brekout\servescreen.h
+	"Texture.h"
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1610218164 d:\gitrep\c-plus-plus-sdl\brekout\gameoverscreen.h
+	"Texture.h"
+	"InputManager.h"
+	"Collision.h"
+	"PlayScreen.h"
+	<sstream>
+	"HighScoreScreen.h"
+
+1610284820 d:\gitrep\c-plus-plus-sdl\brekout\highscorescreen.h
+	"Texture.h"
+	"Collision.h"
+	"InputManager.h"
+	<iostream>
+	<sstream>
+	<fstream>
+
+1609958767 d:\gitrep\c-plus-plus-sdl\brekout\victoryscreen.h
+	"Texture.h"
+	"InputManager.h"
+	"Collision.h"
+	"PlayScreen.h"
+	<sstream>
+
+1610458296 d:\gitrep\c-plus-plus-sdl\brekout\paddleselectscreen.h
+	"Collision.h"
+	"Texture.h"
+	"InputManager.h"
+	"Paddle.h"
+	"PlayScreen.h"
+
+1605033698 d:\gitrep\c-plus-plus-sdl\brekout\timer.h
+	<SDL.h>
+
+1610390313 source:d:\gitrep\c-plus-plus-sdl\brekout\gameoverscreen.cpp
+	"GameOverScreen.h"
+
+1609077482 source:d:\gitrep\c-plus-plus-sdl\brekout\graphics.cpp
+	"Graphics.h"
+
+1609512601 source:d:\gitrep\c-plus-plus-sdl\brekout\health.cpp
+	"Health.h"
+
+1610384611 source:d:\gitrep\c-plus-plus-sdl\brekout\highscorescreen.cpp
+	"HighScoreScreen.h"
+
+1604412322 source:d:\gitrep\c-plus-plus-sdl\brekout\inputmanager.cpp
+	<string.h>
+	"InputManager.h"
+
+1609679302 source:d:\gitrep\c-plus-plus-sdl\brekout\levelmaker.cpp
+	"LevelMaker.h"
+
+1610108281 source:d:\gitrep\c-plus-plus-sdl\brekout\main.cpp
+	<iostream>
+	<fstream>
+	"GameManager.h"
+
+1609423811 source:d:\gitrep\c-plus-plus-sdl\brekout\paddle.cpp
+	"Paddle.h"
+
+1610458263 source:d:\gitrep\c-plus-plus-sdl\brekout\paddleselectscreen.cpp
+	"PaddleSelectScreen.h"
+
+1609959200 source:d:\gitrep\c-plus-plus-sdl\brekout\particle.cpp
+	"Particle.h"
+
+1610020990 source:d:\gitrep\c-plus-plus-sdl\brekout\playscreen.cpp
+	"PlayScreen.h"
+	"StartScreen.h"
+
+1610458263 source:d:\gitrep\c-plus-plus-sdl\brekout\screenmanager.cpp
+	"ScreenManager.h"
+
+1610108205 source:d:\gitrep\c-plus-plus-sdl\brekout\servescreen.cpp
+	"ServeScreen.h"
+
+1610458493 source:d:\gitrep\c-plus-plus-sdl\brekout\startscreen.cpp
+	"StartScreen.h"
+
+1610211177 source:d:\gitrep\c-plus-plus-sdl\brekout\texture.cpp
+	"Texture.h"
+
+1609001384 source:d:\gitrep\c-plus-plus-sdl\brekout\timer.cpp
+	"Timer.h"
+
+1609960186 source:d:\gitrep\c-plus-plus-sdl\brekout\victoryscreen.cpp
+	"VictoryScreen.h"
 

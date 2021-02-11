@@ -1,0 +1,1956 @@
+# depslib dependency file v1.0
+1610809981 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\animation.cpp
+	"Animation.h"
+
+1610808097 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\animation.h
+	"Character.h"
+	"Timer.h"
+
+1610641659 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\character.h
+	"Texture.h"
+	"AudioManager.h"
+
+1610631225 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\texture.h
+	<iostream>
+	"Graphics.h"
+	<sstream>
+	<stdio.h>
+	<cstring>
+	<string>
+
+1608923630 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\graphics.h
+	<SDL.h>
+	<string>
+	<stdio.h>
+	<iostream>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	"Collision.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\begin_code.h
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\close_code.h
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_windows.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_psp.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_os2.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547322290 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561870368 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1611152352 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\collision.h
+	<SDL.h>
+	<string>
+
+1605626584 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\audiomanager.h
+	"SDL_mixer.h"
+	"SDL.h"
+	<string>
+	<iostream>
+
+1540997992 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1610740104 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\timer.h
+	<SDL.h>
+
+1605626838 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\audiomanager.cpp
+	"AudioManager.h"
+
+1608982787 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\background.cpp
+	"Background.h"
+
+1608982833 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\background.h
+	"Texture.h"
+	"Collision.h"
+
+1610629405 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\brick.cpp
+	"Brick.h"
+
+1610891255 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\brick.h
+	"Texture.h"
+	"AudioManager.h"
+
+1610642327 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\character.cpp
+	"Character.h"
+
+1603714836 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\collision.cpp
+	"Collision.h"
+
+1610789019 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\gamemanager.cpp
+	"GameManager.h"
+
+1610739860 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\gamemanager.h
+	"Graphics.h"
+	"ScreenManager.h"
+	"Timer.h"
+	<time.h>
+	<sstream>
+	<cmath>
+
+1611152672 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\screenmanager.h
+	"StartScreen.h"
+	"PlayScreen.h"
+	"PlayerJumpState.h"
+	"Collision.h"
+	"PlayerWalkingState.h"
+	"AudioManager.h"
+	"PlayerFallingState.h"
+	"PlayerIdleState.h"
+	<sstream>
+	<iostream>
+	<fstream>
+
+1608990736 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\startscreen.h
+	"Texture.h"
+	<iostream>
+	"InputManager.h"
+	"Collision.h"
+	<vector>
+	<memory>
+	"AudioManager.h"
+
+1604412856 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\inputmanager.h
+	<SDL.h>
+	"MathHelper.h"
+
+1604412304 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\mathhelper.h
+	<math.h>
+
+1611159433 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\playscreen.h
+	<vector>
+	<iostream>
+	<memory>
+	"Texture.h"
+	"Collision.h"
+	"AudioManager.h"
+	<cstring>
+	"InputManager.h"
+	"Character.h"
+	"LevelMaker.h"
+	"Animation.h"
+
+1610896984 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\levelmaker.h
+	"Texture.h"
+	"Collision.h"
+	"Brick.h"
+	"TileMap.h"
+
+1610904844 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\tilemap.h
+	"Texture.h"
+	"Collision.h"
+	"Brick.h"
+	<math.h>
+
+1611152352 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\playerjumpstate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1611146519 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\playerwalkingstate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1611142863 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\playerfallingstate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1611151438 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\playeridlestate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1609077482 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\graphics.cpp
+	"Graphics.h"
+
+1604412322 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\inputmanager.cpp
+	<string.h>
+	"InputManager.h"
+
+1611137322 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\levelmaker.cpp
+	"LevelMaker.h"
+
+1610108281 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\main.cpp
+	<iostream>
+	<fstream>
+	"GameManager.h"
+
+1609959200 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\particle.cpp
+	"Particle.h"
+
+1609862389 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\particle.h
+	"Texture.h"
+
+1611152519 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\playeridlestate.cpp
+	"PlayerIdleState.h"
+
+1611158150 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\playerjumpstate.cpp
+	"PlayerJumpState.h"
+
+1611159570 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\playerwalkingstate.cpp
+	"PlayerWalkingState.h"
+
+1611159433 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\playscreen.cpp
+	"PlayScreen.h"
+	"StartScreen.h"
+
+1611152672 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\screenmanager.cpp
+	"ScreenManager.h"
+
+1611141871 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\startscreen.cpp
+	"StartScreen.h"
+
+1610631404 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\texture.cpp
+	"Texture.h"
+
+1610960722 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\tilemap.cpp
+	"TileMap.h"
+
+1609001384 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\timer.cpp
+	"Timer.h"
+
+1611158725 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario1\playerfallingstate.cpp
+	"PlayerFallingState.h"
+
+1610809981 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\animation.cpp
+	"Animation.h"
+
+1610808097 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\animation.h
+	"Character.h"
+	"Timer.h"
+
+1611413738 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\character.h
+	"Texture.h"
+	"AudioManager.h"
+	"TileMap.h"
+
+1610631225 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\texture.h
+	<iostream>
+	"Graphics.h"
+	<sstream>
+	<stdio.h>
+	<cstring>
+	<string>
+
+1608923630 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\graphics.h
+	<SDL.h>
+	<string>
+	<stdio.h>
+	<iostream>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	"Collision.h"
+
+1611152352 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\collision.h
+	<SDL.h>
+	<string>
+
+1605626584 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\audiomanager.h
+	"SDL_mixer.h"
+	"SDL.h"
+	<string>
+	<iostream>
+
+1610740104 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\timer.h
+	<SDL.h>
+
+1605626838 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\audiomanager.cpp
+	"AudioManager.h"
+
+1608982787 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\background.cpp
+	"Background.h"
+
+1608982833 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\background.h
+	"Texture.h"
+	"Collision.h"
+
+1611315271 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\brick.cpp
+	"Brick.h"
+
+1610891255 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\brick.h
+	"Texture.h"
+	"AudioManager.h"
+
+1611413853 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\character.cpp
+	"Character.h"
+
+1603714836 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\collision.cpp
+	"Collision.h"
+
+1610789019 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\gamemanager.cpp
+	"GameManager.h"
+
+1610739860 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\gamemanager.h
+	"Graphics.h"
+	"ScreenManager.h"
+	"Timer.h"
+	<time.h>
+	<sstream>
+	<cmath>
+
+1611152672 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\screenmanager.h
+	"StartScreen.h"
+	"PlayScreen.h"
+	"PlayerJumpState.h"
+	"Collision.h"
+	"PlayerWalkingState.h"
+	"AudioManager.h"
+	"PlayerFallingState.h"
+	"PlayerIdleState.h"
+	<sstream>
+	<iostream>
+	<fstream>
+
+1608990736 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\startscreen.h
+	"Texture.h"
+	<iostream>
+	"InputManager.h"
+	"Collision.h"
+	<vector>
+	<memory>
+	"AudioManager.h"
+
+1604412856 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\inputmanager.h
+	<SDL.h>
+	"MathHelper.h"
+
+1604412304 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\mathhelper.h
+	<math.h>
+
+1611334585 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\playscreen.h
+	<vector>
+	<iostream>
+	<memory>
+	"Texture.h"
+	"Collision.h"
+	"AudioManager.h"
+	<cstring>
+	"InputManager.h"
+	"Character.h"
+	"LevelMaker.h"
+	"Animation.h"
+
+1610896984 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\levelmaker.h
+	"Texture.h"
+	"Collision.h"
+	"Brick.h"
+	"TileMap.h"
+
+1611317292 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\tilemap.h
+	"Texture.h"
+	"Collision.h"
+	"Brick.h"
+	<math.h>
+
+1611152352 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\playerjumpstate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1611146519 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\playerwalkingstate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1611142863 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\playerfallingstate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1611151438 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\playeridlestate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1609077482 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\graphics.cpp
+	"Graphics.h"
+
+1604412322 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\inputmanager.cpp
+	<string.h>
+	"InputManager.h"
+
+1611425739 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\levelmaker.cpp
+	"LevelMaker.h"
+
+1610108281 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\main.cpp
+	<iostream>
+	<fstream>
+	"GameManager.h"
+
+1609959200 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\particle.cpp
+	"Particle.h"
+
+1609862389 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\particle.h
+	"Texture.h"
+
+1611416528 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\playerfallingstate.cpp
+	"PlayerFallingState.h"
+
+1611403306 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\playeridlestate.cpp
+	"PlayerIdleState.h"
+
+1611414115 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\playerjumpstate.cpp
+	"PlayerJumpState.h"
+
+1611414168 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\playerwalkingstate.cpp
+	"PlayerWalkingState.h"
+
+1611429331 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\playscreen.cpp
+	"PlayScreen.h"
+	"StartScreen.h"
+
+1611323178 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\screenmanager.cpp
+	"ScreenManager.h"
+
+1611141871 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\startscreen.cpp
+	"StartScreen.h"
+
+1610631404 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\texture.cpp
+	"Texture.h"
+
+1611337303 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\tilemap.cpp
+	"TileMap.h"
+
+1609001384 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario2\timer.cpp
+	"Timer.h"
+
+1612019777 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\animation.cpp
+	"Animation.h"
+
+1612019801 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\animation.h
+	"Character.h"
+	"Timer.h"
+
+1611413738 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\character.h
+	"Texture.h"
+	"AudioManager.h"
+	"TileMap.h"
+
+1610631225 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\texture.h
+	<iostream>
+	"Graphics.h"
+	<sstream>
+	<stdio.h>
+	<cstring>
+	<string>
+
+1608923630 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\graphics.h
+	<SDL.h>
+	<string>
+	<stdio.h>
+	<iostream>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	"Collision.h"
+
+1611152352 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\collision.h
+	<SDL.h>
+	<string>
+
+1605626584 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\audiomanager.h
+	"SDL_mixer.h"
+	"SDL.h"
+	<string>
+	<iostream>
+
+1612869531 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\tilemap.h
+	"Texture.h"
+	"Collision.h"
+	"Brick.h"
+	<math.h>
+
+1612203217 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\brick.h
+	"Texture.h"
+	"AudioManager.h"
+	"Gem.h"
+
+1610740104 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\timer.h
+	<SDL.h>
+
+1605626838 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\audiomanager.cpp
+	"AudioManager.h"
+
+1608982787 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\background.cpp
+	"Background.h"
+
+1608982833 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\background.h
+	"Texture.h"
+	"Collision.h"
+
+1612204137 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\brick.cpp
+	"Brick.h"
+
+1612202603 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\character.cpp
+	"Character.h"
+
+1603714836 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\collision.cpp
+	"Collision.h"
+
+1612880060 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\gamemanager.cpp
+	"GameManager.h"
+
+1610739860 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\gamemanager.h
+	"Graphics.h"
+	"ScreenManager.h"
+	"Timer.h"
+	<time.h>
+	<sstream>
+	<cmath>
+
+1612607326 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\screenmanager.h
+	"StartScreen.h"
+	"PlayScreen.h"
+	"PlayerJumpState.h"
+	"Collision.h"
+	"PlayerWalkingState.h"
+	"AudioManager.h"
+	"PlayerFallingState.h"
+	"PlayerIdleState.h"
+	<sstream>
+	<iostream>
+	<fstream>
+	"SnailMovingState.h"
+	"SnailIdleState.h"
+	"SnailChasingState.h"
+
+1612882529 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\startscreen.h
+	"Texture.h"
+	<iostream>
+	"InputManager.h"
+	"Collision.h"
+	<vector>
+	<memory>
+	"AudioManager.h"
+
+1604412856 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\inputmanager.h
+	<SDL.h>
+	"MathHelper.h"
+
+1604412304 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\mathhelper.h
+	<math.h>
+
+1612871302 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\playscreen.h
+	<vector>
+	<iostream>
+	<memory>
+	"Texture.h"
+	"Collision.h"
+	"AudioManager.h"
+	<cstring>
+	"InputManager.h"
+	"Character.h"
+	"LevelMaker.h"
+	"Animation.h"
+	"Snail.h"
+
+1612857636 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\levelmaker.h
+	"Texture.h"
+	"Collision.h"
+	"Brick.h"
+	"TileMap.h"
+
+1611152352 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\playerjumpstate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1611146519 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\playerwalkingstate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1611142863 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\playerfallingstate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1611151438 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\playeridlestate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1609077482 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\graphics.cpp
+	"Graphics.h"
+
+1604412322 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\inputmanager.cpp
+	<string.h>
+	"InputManager.h"
+
+1612884227 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\levelmaker.cpp
+	"LevelMaker.h"
+
+1610108281 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\main.cpp
+	<iostream>
+	<fstream>
+	"GameManager.h"
+
+1609959200 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\particle.cpp
+	"Particle.h"
+
+1609862389 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\particle.h
+	"Texture.h"
+
+1612872037 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\playerfallingstate.cpp
+	"PlayerFallingState.h"
+
+1612872418 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\playeridlestate.cpp
+	"PlayerIdleState.h"
+
+1612872291 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\playerjumpstate.cpp
+	"PlayerJumpState.h"
+
+1612704520 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\playerwalkingstate.cpp
+	"PlayerWalkingState.h"
+
+1612873315 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\playscreen.cpp
+	"PlayScreen.h"
+	"StartScreen.h"
+
+1612878712 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\screenmanager.cpp
+	"ScreenManager.h"
+
+1612882879 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\startscreen.cpp
+	"StartScreen.h"
+
+1610631404 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\texture.cpp
+	"Texture.h"
+
+1612869840 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\tilemap.cpp
+	"TileMap.h"
+
+1609001384 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\timer.cpp
+	"Timer.h"
+
+1612868582 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\gem.h
+	"Timer.h"
+	<math.h>
+
+1612868556 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\gem.cpp
+	"Gem.h"
+
+1612700855 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\snail.h
+	"Texture.h"
+	"Timer.h"
+
+1612614367 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\snail.cpp
+	"Snail.h"
+
+1612536734 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\snailmovingstate.h
+	"Timer.h"
+	"Collision.h"
+	"Snail.h"
+	"PlayScreen.h"
+
+1612615196 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\snailmovingstate.cpp
+	"SnailMovingState.h"
+
+1612616140 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\snailidlestate.cpp
+	"SnailIdleState.h"
+
+1612615244 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\snailidlestate.h
+	"Snail.h"
+	"PlayScreen.h"
+
+1612616237 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\snailchasingstate.cpp
+	"SnailChasingState.h"
+
+1612614069 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario3\snailchasingstate.h
+	"Snail.h"
+	"PlayScreen.h"
+
+1612938220 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\animation.cpp
+	"Animation.h"
+
+1612019801 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\animation.h
+	"Character.h"
+	"Timer.h"
+
+1611413738 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\character.h
+	"Texture.h"
+	"AudioManager.h"
+	"TileMap.h"
+
+1610631225 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\texture.h
+	<iostream>
+	"Graphics.h"
+	<sstream>
+	<stdio.h>
+	<cstring>
+	<string>
+
+1608923630 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\graphics.h
+	<SDL.h>
+	<string>
+	<stdio.h>
+	<iostream>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	"Collision.h"
+
+1611152352 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\collision.h
+	<SDL.h>
+	<string>
+
+1605626584 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\audiomanager.h
+	"SDL_mixer.h"
+	"SDL.h"
+	<string>
+	<iostream>
+
+1612869531 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\tilemap.h
+	"Texture.h"
+	"Collision.h"
+	"Brick.h"
+	<math.h>
+
+1612937618 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\brick.h
+	"Texture.h"
+	"AudioManager.h"
+	"Gem.h"
+
+1612868582 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\gem.h
+	"Timer.h"
+	<math.h>
+
+1610740104 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\timer.h
+	<SDL.h>
+
+1605626838 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\audiomanager.cpp
+	"AudioManager.h"
+
+1608982787 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\background.cpp
+	"Background.h"
+
+1608982833 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\background.h
+	"Texture.h"
+	"Collision.h"
+
+1612947935 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\brick.cpp
+	"Brick.h"
+
+1612940908 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\character.cpp
+	"Character.h"
+
+1603714836 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\collision.cpp
+	"Collision.h"
+
+1612880060 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\gamemanager.cpp
+	"GameManager.h"
+
+1610739860 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\gamemanager.h
+	"Graphics.h"
+	"ScreenManager.h"
+	"Timer.h"
+	<time.h>
+	<sstream>
+	<cmath>
+
+1612607326 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\screenmanager.h
+	"StartScreen.h"
+	"PlayScreen.h"
+	"PlayerJumpState.h"
+	"Collision.h"
+	"PlayerWalkingState.h"
+	"AudioManager.h"
+	"PlayerFallingState.h"
+	"PlayerIdleState.h"
+	<sstream>
+	<iostream>
+	<fstream>
+	"SnailMovingState.h"
+	"SnailIdleState.h"
+	"SnailChasingState.h"
+
+1612948808 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\startscreen.h
+	"Texture.h"
+	<iostream>
+	"InputManager.h"
+	"Collision.h"
+	"PlayScreen.h"
+	<vector>
+	<memory>
+	"AudioManager.h"
+
+1604412856 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\inputmanager.h
+	<SDL.h>
+	"MathHelper.h"
+
+1604412304 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\mathhelper.h
+	<math.h>
+
+1612940714 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\playscreen.h
+	<vector>
+	<iostream>
+	<memory>
+	"Texture.h"
+	"Collision.h"
+	"AudioManager.h"
+	<cstring>
+	"InputManager.h"
+	"Character.h"
+	"LevelMaker.h"
+	"Animation.h"
+	"Snail.h"
+
+1612937824 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\levelmaker.h
+	"Texture.h"
+	"Collision.h"
+	"Brick.h"
+	"TileMap.h"
+
+1612700855 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\snail.h
+	"Texture.h"
+	"Timer.h"
+
+1611152352 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\playerjumpstate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1611146519 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\playerwalkingstate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1611142863 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\playerfallingstate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1611151438 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\playeridlestate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1612536734 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\snailmovingstate.h
+	"Timer.h"
+	"Collision.h"
+	"Snail.h"
+	"PlayScreen.h"
+
+1612615244 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\snailidlestate.h
+	"Snail.h"
+	"PlayScreen.h"
+
+1612614069 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\snailchasingstate.h
+	"Snail.h"
+	"PlayScreen.h"
+
+1612938337 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\gem.cpp
+	"Gem.h"
+
+1609077482 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\graphics.cpp
+	"Graphics.h"
+
+1604412322 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\inputmanager.cpp
+	<string.h>
+	"InputManager.h"
+
+1612947916 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\levelmaker.cpp
+	"LevelMaker.h"
+
+1610108281 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\main.cpp
+	<iostream>
+	<fstream>
+	"GameManager.h"
+
+1609959200 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\particle.cpp
+	"Particle.h"
+
+1609862389 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\particle.h
+	"Texture.h"
+
+1612954206 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\playerfallingstate.cpp
+	"PlayerFallingState.h"
+
+1612954339 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\playeridlestate.cpp
+	"PlayerIdleState.h"
+
+1612957552 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\playerjumpstate.cpp
+	"PlayerJumpState.h"
+
+1612954206 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\playerwalkingstate.cpp
+	"PlayerWalkingState.h"
+
+1612948522 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\playscreen.cpp
+	"PlayScreen.h"
+	"StartScreen.h"
+
+1612948808 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\screenmanager.cpp
+	"ScreenManager.h"
+
+1612614367 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\snail.cpp
+	"Snail.h"
+
+1612616237 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\snailchasingstate.cpp
+	"SnailChasingState.h"
+
+1612616140 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\snailidlestate.cpp
+	"SnailIdleState.h"
+
+1612615196 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\snailmovingstate.cpp
+	"SnailMovingState.h"
+
+1612948818 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\startscreen.cpp
+	"StartScreen.h"
+
+1610631404 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\texture.cpp
+	"Texture.h"
+
+1612948328 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\tilemap.cpp
+	"TileMap.h"
+
+1609001384 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\mario3\timer.cpp
+	"Timer.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\begin_code.h
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\close_code.h
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_windows.h
+	"SDL_platform.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_psp.h
+	"SDL_platform.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_os2.h
+	"SDL_platform.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547322290 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561870368 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540997992 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1612938220 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\animation.cpp
+	"Animation.h"
+
+1612019801 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\animation.h
+	"Character.h"
+	"Timer.h"
+
+1611413738 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\character.h
+	"Texture.h"
+	"AudioManager.h"
+	"TileMap.h"
+
+1610631225 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\texture.h
+	<iostream>
+	"Graphics.h"
+	<sstream>
+	<stdio.h>
+	<cstring>
+	<string>
+
+1613046339 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\graphics.h
+	<SDL.h>
+	<string>
+	<stdio.h>
+	<iostream>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	"Collision.h"
+
+1611152352 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\collision.h
+	<SDL.h>
+	<string>
+
+1605626584 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\audiomanager.h
+	"SDL_mixer.h"
+	"SDL.h"
+	<string>
+	<iostream>
+
+1612869531 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\tilemap.h
+	"Texture.h"
+	"Collision.h"
+	"Brick.h"
+	<math.h>
+
+1612937618 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\brick.h
+	"Texture.h"
+	"AudioManager.h"
+	"Gem.h"
+
+1612868582 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\gem.h
+	"Timer.h"
+	<math.h>
+
+1610740104 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\timer.h
+	<SDL.h>
+
+1605626838 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\audiomanager.cpp
+	"AudioManager.h"
+
+1608982787 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\background.cpp
+	"Background.h"
+
+1608982833 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\background.h
+	"Texture.h"
+	"Collision.h"
+
+1612947935 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\brick.cpp
+	"Brick.h"
+
+1612940908 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\character.cpp
+	"Character.h"
+
+1603714836 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\collision.cpp
+	"Collision.h"
+
+1612880060 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\gamemanager.cpp
+	"GameManager.h"
+
+1610739860 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\gamemanager.h
+	"Graphics.h"
+	"ScreenManager.h"
+	"Timer.h"
+	<time.h>
+	<sstream>
+	<cmath>
+
+1612607326 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\screenmanager.h
+	"StartScreen.h"
+	"PlayScreen.h"
+	"PlayerJumpState.h"
+	"Collision.h"
+	"PlayerWalkingState.h"
+	"AudioManager.h"
+	"PlayerFallingState.h"
+	"PlayerIdleState.h"
+	<sstream>
+	<iostream>
+	<fstream>
+	"SnailMovingState.h"
+	"SnailIdleState.h"
+	"SnailChasingState.h"
+
+1612948808 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\startscreen.h
+	"Texture.h"
+	<iostream>
+	"InputManager.h"
+	"Collision.h"
+	"PlayScreen.h"
+	<vector>
+	<memory>
+	"AudioManager.h"
+
+1604412856 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\inputmanager.h
+	<SDL.h>
+	"MathHelper.h"
+
+1604412304 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\mathhelper.h
+	<math.h>
+
+1612940714 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\playscreen.h
+	<vector>
+	<iostream>
+	<memory>
+	"Texture.h"
+	"Collision.h"
+	"AudioManager.h"
+	<cstring>
+	"InputManager.h"
+	"Character.h"
+	"LevelMaker.h"
+	"Animation.h"
+	"Snail.h"
+
+1612937824 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\levelmaker.h
+	"Texture.h"
+	"Collision.h"
+	"Brick.h"
+	"TileMap.h"
+
+1612700855 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\snail.h
+	"Texture.h"
+	"Timer.h"
+
+1611152352 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\playerjumpstate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1611146519 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\playerwalkingstate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1611142863 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\playerfallingstate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1611151438 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\playeridlestate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+
+1612536734 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\snailmovingstate.h
+	"Timer.h"
+	"Collision.h"
+	"Snail.h"
+	"PlayScreen.h"
+
+1612615244 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\snailidlestate.h
+	"Snail.h"
+	"PlayScreen.h"
+
+1612614069 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\snailchasingstate.h
+	"Snail.h"
+	"PlayScreen.h"
+
+1612938337 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\gem.cpp
+	"Gem.h"
+
+1609077482 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\graphics.cpp
+	"Graphics.h"
+
+1604412322 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\inputmanager.cpp
+	<string.h>
+	"InputManager.h"
+
+1612947916 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\levelmaker.cpp
+	"LevelMaker.h"
+
+1610108281 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\main.cpp
+	<iostream>
+	<fstream>
+	"GameManager.h"
+
+1609959200 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\particle.cpp
+	"Particle.h"
+
+1609862389 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\particle.h
+	"Texture.h"
+
+1613046339 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\playerfallingstate.cpp
+	"PlayerFallingState.h"
+
+1612954339 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\playeridlestate.cpp
+	"PlayerIdleState.h"
+
+1612957552 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\playerjumpstate.cpp
+	"PlayerJumpState.h"
+
+1612954206 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\playerwalkingstate.cpp
+	"PlayerWalkingState.h"
+
+1612948522 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\playscreen.cpp
+	"PlayScreen.h"
+	"StartScreen.h"
+
+1612948808 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\screenmanager.cpp
+	"ScreenManager.h"
+
+1612614367 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\snail.cpp
+	"Snail.h"
+
+1612616237 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\snailchasingstate.cpp
+	"SnailChasingState.h"
+
+1612616140 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\snailidlestate.cpp
+	"SnailIdleState.h"
+
+1612615196 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\snailmovingstate.cpp
+	"SnailMovingState.h"
+
+1612948818 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\startscreen.cpp
+	"StartScreen.h"
+
+1610631404 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\texture.cpp
+	"Texture.h"
+
+1612948328 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\tilemap.cpp
+	"TileMap.h"
+
+1609001384 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\mario4\timer.cpp
+	"Timer.h"
+

@@ -10,6 +10,8 @@
 #include "GameOverScreen.h"
 #include "VictoryScreen.h"
 #include "HighScoreScreen.h"
+#include "EnterHighScoreScreen.h"
+#include "PaddleSelectScreen.h"
 #include <sstream>
 #include <iostream>
 #include <fstream>
@@ -32,8 +34,11 @@ private:
     GameOverScreen*mGameOverScreen;
     VictoryScreen*mVictoryScreen;
     HighScoreScreen*mHighScoreScreen;
+    EnterHighScoreScreen*mEnterHighScoreScreen;
+    PaddleSelectScreen*mPaddleSelectScreen;
     Health *health;
     Texture*mscore;
+    //Paddle*padlle;
     std::stringstream scoreText;
     //SDL2SoundEffets *sound;
     AudioManager* mAudioMgr;
@@ -46,9 +51,10 @@ private:
         void Render();
         void Readfromfile();
         void WriteToFile();
-    int scoreValue=0;
+    int scoreValue=3050;
     int prevscore=0;
     int level=1;
+    int highScoreIndex=0;
     HighScores mHighScores[10];
     private:
         ScreenManager();
