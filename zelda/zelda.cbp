@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="zelda" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/zelda" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../Pong_SDL_1" />
+					<Add directory="../fity-bird" />
+					<Add directory="../zelda" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/zelda" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../Pong_SDL_1" />
+					<Add directory="../fity-bird" />
+					<Add directory="../zelda" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="G:/desctop/SDL2-2.0.12/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDL2main" />
+			<Add library="SDL2" />
+			<Add library="SDL2_image" />
+			<Add library="SDL2_ttf" />
+			<Add library="SDL2_mixer" />
+			<Add directory="G:/desctop/SDL2-2.0.12/build" />
+		</Linker>
+		<Unit filename="Animation.cpp" />
+		<Unit filename="Animation.h" />
+		<Unit filename="AudioManager.cpp" />
+		<Unit filename="AudioManager.h" />
+		<Unit filename="BackPlane.h" />
+		<Unit filename="Collision.cpp" />
+		<Unit filename="Collision.h" />
+		<Unit filename="Countdown.h" />
+		<Unit filename="Door.cpp" />
+		<Unit filename="Door.h" />
+		<Unit filename="Dungeon.cpp" />
+		<Unit filename="Dungeon.h" />
+		<Unit filename="Entity.cpp" />
+		<Unit filename="Entity.h" />
+		<Unit filename="EntityIdleState.cpp" />
+		<Unit filename="EntityIdleState.h" />
+		<Unit filename="EntityWalkState.cpp" />
+		<Unit filename="EntityWalkState.h" />
+		<Unit filename="GameManager.cpp" />
+		<Unit filename="GameManager.h" />
+		<Unit filename="GameOverState.cpp" />
+		<Unit filename="GameOverState.h" />
+		<Unit filename="Graphics.cpp" />
+		<Unit filename="Graphics.h" />
+		<Unit filename="InputManager.cpp" />
+		<Unit filename="InputManager.h" />
+		<Unit filename="MathHelper.h" />
+		<Unit filename="PlayScreen.cpp" />
+		<Unit filename="PlayScreen.h" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="PlayerIdleState.cpp" />
+		<Unit filename="PlayerIdleState.h" />
+		<Unit filename="PlayerSwingSwordState.cpp" />
+		<Unit filename="PlayerSwingSwordState.h" />
+		<Unit filename="PlayerWalkingState.cpp" />
+		<Unit filename="PlayerWalkingState.h" />
+		<Unit filename="Room.cpp" />
+		<Unit filename="Room.h" />
+		<Unit filename="ScreenManager.cpp" />
+		<Unit filename="ScreenManager.h" />
+		<Unit filename="StartScreen.cpp" />
+		<Unit filename="StartScreen.h" />
+		<Unit filename="Texture.cpp" />
+		<Unit filename="Texture.h" />
+		<Unit filename="Timer.cpp" />
+		<Unit filename="Timer.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

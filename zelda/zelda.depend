@@ -1,0 +1,2856 @@
+# depslib dependency file v1.0
+1605626837 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\audiomanager.cpp
+	"AudioManager.h"
+
+1605626582 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\audiomanager.h
+	"SDL_mixer.h"
+	"SDL.h"
+	<string>
+	<iostream>
+
+1540997992 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\begin_code.h
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\close_code.h
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_windows.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_psp.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_os2.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1605613964 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\backplane.cpp
+	"BackPlane.h"
+
+1605613880 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\backplane.h
+	"Collision.h"
+	"Texture.h"
+
+1605779910 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\collision.h
+	<SDL.h>
+
+1605794685 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\texture.h
+	"Graphics.h"
+
+1605779910 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\graphics.h
+	<SDL.h>
+	<string>
+	<stdio.h>
+	<iostream>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	"Collision.h"
+
+1547322290 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561870368 c:\users\dmitry_shu\desktop\sdl2-2.0.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1605627321 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\bird.cpp
+	"Bird.h"
+
+1605626696 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\bird.h
+	"Tube.h"
+	"InputManager.h"
+	"AudioManager.h"
+
+1605445177 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\tube.h
+	"Texture.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1604412854 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\inputmanager.h
+	<SDL.h>
+	"MathHelper.h"
+
+1604412302 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\mathhelper.h
+	<math.h>
+
+1603714835 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\collision.cpp
+	"Collision.h"
+
+1605617443 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\countdown.cpp
+	"Countdown.h"
+
+1605617443 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\countdown.h
+	"Texture.h"
+	"Collision.h"
+	"Timer.h"
+	<iostream>
+	<cstring>
+
+1605033697 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\timer.h
+	<SDL.h>
+
+1605779398 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\gamemanager.cpp
+	"GameManager.h"
+
+1605793842 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\gamemanager.h
+	"Graphics.h"
+	"ScreenManager.h"
+	"Timer.h"
+	<time.h>
+
+1605794116 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\screenmanager.h
+	"StartScreen.h"
+	"PlayScreen.h"
+	"Collision.h"
+	"AudioManager.h"
+
+1605783845 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\startscreen.h
+	"Texture.h"
+	<iostream>
+	"InputManager.h"
+	"Collision.h"
+	<vector>
+	<memory>
+
+1605793876 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\playscreen.h
+	<vector>
+	<iostream>
+	<memory>
+	"Texture.h"
+	"Collision.h"
+	"AudioManager.h"
+	<cstring>
+	"InputManager.h"
+
+1605603310 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\score.h
+	"Texture.h"
+	"Collision.h"
+	"InputManager.h"
+	<cstring>
+
+1605623475 c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\sdl2soundeffets.h
+	"SDL_mixer.h"
+	"SDL.h"
+	<stdio.h>
+	<iostream>
+	<vector>
+
+1604741977 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\graphics.cpp
+	"Graphics.h"
+
+1604412321 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\inputmanager.cpp
+	<string.h>
+	"InputManager.h"
+
+1605275178 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\main.cpp
+	"GameManager.h"
+
+1605795652 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\playscreen.cpp
+	"PlayScreen.h"
+	"StartScreen.h"
+
+1605613247 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\score.cpp
+	"Score.h"
+
+1605794880 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\screenmanager.cpp
+	"ScreenManager.h"
+
+1605624568 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\sdl2soundeffets.cpp
+	"SDL2SoundEffets.h"
+
+1605784626 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\startscreen.cpp
+	"StartScreen.h"
+
+1605795131 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\texture.cpp
+	"Texture.h"
+
+1605033697 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\timer.cpp
+	"Timer.h"
+
+1605445446 source:c:\users\dmitry_shu\desktop\fltk_code_blocks\testcode\sdl_projects\zelda\tube.cpp
+	"Tube.h"
+
+1605626838 source:f:\cppf\sdl_projects\zelda\audiomanager.cpp
+	"AudioManager.h"
+
+1605626584 f:\cppf\sdl_projects\zelda\audiomanager.h
+	"SDL_mixer.h"
+	"SDL.h"
+	<string>
+	<iostream>
+
+1603714836 source:f:\cppf\sdl_projects\zelda\collision.cpp
+	"Collision.h"
+
+1605779912 f:\cppf\sdl_projects\zelda\collision.h
+	<SDL.h>
+
+1605779400 source:f:\cppf\sdl_projects\zelda\gamemanager.cpp
+	"GameManager.h"
+
+1605793844 f:\cppf\sdl_projects\zelda\gamemanager.h
+	"Graphics.h"
+	"ScreenManager.h"
+	"Timer.h"
+	<time.h>
+
+1605779912 f:\cppf\sdl_projects\zelda\graphics.h
+	<SDL.h>
+	<string>
+	<stdio.h>
+	<iostream>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	"Collision.h"
+
+1605794118 f:\cppf\sdl_projects\zelda\screenmanager.h
+	"StartScreen.h"
+	"PlayScreen.h"
+	"Collision.h"
+	"AudioManager.h"
+
+1605783846 f:\cppf\sdl_projects\zelda\startscreen.h
+	"Texture.h"
+	<iostream>
+	"InputManager.h"
+	"Collision.h"
+	<vector>
+	<memory>
+
+1605794686 f:\cppf\sdl_projects\zelda\texture.h
+	"Graphics.h"
+
+1604412856 f:\cppf\sdl_projects\zelda\inputmanager.h
+	<SDL.h>
+	"MathHelper.h"
+
+1604412304 f:\cppf\sdl_projects\zelda\mathhelper.h
+	<math.h>
+
+1605793878 f:\cppf\sdl_projects\zelda\playscreen.h
+	<vector>
+	<iostream>
+	<memory>
+	"Texture.h"
+	"Collision.h"
+	"AudioManager.h"
+	<cstring>
+	"InputManager.h"
+
+1605033698 f:\cppf\sdl_projects\zelda\timer.h
+	<SDL.h>
+
+1604741978 source:f:\cppf\sdl_projects\zelda\graphics.cpp
+	"Graphics.h"
+
+1604412322 source:f:\cppf\sdl_projects\zelda\inputmanager.cpp
+	<string.h>
+	"InputManager.h"
+
+1605275180 source:f:\cppf\sdl_projects\zelda\main.cpp
+	"GameManager.h"
+
+1605795654 source:f:\cppf\sdl_projects\zelda\playscreen.cpp
+	"PlayScreen.h"
+	"StartScreen.h"
+
+1605794882 source:f:\cppf\sdl_projects\zelda\screenmanager.cpp
+	"ScreenManager.h"
+
+1605784628 source:f:\cppf\sdl_projects\zelda\startscreen.cpp
+	"StartScreen.h"
+
+1605795132 source:f:\cppf\sdl_projects\zelda\texture.cpp
+	"Texture.h"
+
+1605033698 source:f:\cppf\sdl_projects\zelda\timer.cpp
+	"Timer.h"
+
+1540997992 f:\codeblocks\sdl2-2.0.12\include\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\begin_code.h
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\close_code.h
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_config_windows.h
+	"SDL_platform.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_config_psp.h
+	"SDL_platform.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_config_os2.h
+	"SDL_platform.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 f:\codeblocks\sdl2-2.0.12\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547322290 f:\codeblocks\sdl2-2.0.12\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561870368 f:\codeblocks\sdl2-2.0.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1605626838 source:c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\audiomanager.cpp
+	"AudioManager.h"
+
+1605626584 c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\audiomanager.h
+	"SDL_mixer.h"
+	"SDL.h"
+	<string>
+	<iostream>
+
+1540997992 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\begin_code.h
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\close_code.h
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_config_windows.h
+	"SDL_platform.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_config_psp.h
+	"SDL_platform.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_config_os2.h
+	"SDL_platform.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1603714836 source:c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\collision.cpp
+	"Collision.h"
+
+1605779912 c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\collision.h
+	<SDL.h>
+
+1605779400 source:c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\gamemanager.cpp
+	"GameManager.h"
+
+1605793844 c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\gamemanager.h
+	"Graphics.h"
+	"ScreenManager.h"
+	"Timer.h"
+	<time.h>
+
+1605779912 c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\graphics.h
+	<SDL.h>
+	<string>
+	<stdio.h>
+	<iostream>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	"Collision.h"
+
+1547322290 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561866768 c:\documents and settings\пользователь\Рабочий стол\codeblocks\sdl2-2.0.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1605794118 c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\screenmanager.h
+	"StartScreen.h"
+	"PlayScreen.h"
+	"Collision.h"
+	"AudioManager.h"
+
+1605783846 c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\startscreen.h
+	"Texture.h"
+	<iostream>
+	"InputManager.h"
+	"Collision.h"
+	<vector>
+	<memory>
+
+1605794686 c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\texture.h
+	"Graphics.h"
+
+1604412856 c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\inputmanager.h
+	<SDL.h>
+	"MathHelper.h"
+
+1604412304 c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\mathhelper.h
+	<math.h>
+
+1009844147 c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\playscreen.h
+	<vector>
+	<iostream>
+	<memory>
+	"Texture.h"
+	"Collision.h"
+	"AudioManager.h"
+	<cstring>
+	"InputManager.h"
+	"Room.h"
+
+1605033698 c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\timer.h
+	<SDL.h>
+
+1604741978 source:c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\graphics.cpp
+	"Graphics.h"
+
+1604412322 source:c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\inputmanager.cpp
+	<string.h>
+	"InputManager.h"
+
+1605275180 source:c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\main.cpp
+	"GameManager.h"
+
+1009844284 source:c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\playscreen.cpp
+	"PlayScreen.h"
+	"StartScreen.h"
+
+1605794882 source:c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\screenmanager.cpp
+	"ScreenManager.h"
+
+1605784628 source:c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\startscreen.cpp
+	"StartScreen.h"
+
+1605795132 source:c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\texture.cpp
+	"Texture.h"
+
+1605033698 source:c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\timer.cpp
+	"Timer.h"
+
+1009835996 source:c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\room.cpp
+	"Room.h"
+
+1009835988 c:\documents and settings\пользователь\Рабочий стол\cppf\sdl_projects\zelda\room.h
+	<vector>
+	<iostream>
+	<memory>
+	"Texture.h"
+	"Collision.h"
+	<cstring>
+
+1661260049 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\playscreen.cpp
+	"PlayScreen.h"
+	"StartScreen.h"
+
+1661258189 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\playscreen.h
+	<vector>
+	<iostream>
+	<memory>
+	"Texture.h"
+	"Collision.h"
+	"AudioManager.h"
+	<cstring>
+	"InputManager.h"
+	"Room.h"
+	"Player.h"
+	"Animation.h"
+	"Dungeon.h"
+
+1658841408 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\texture.h
+	<iostream>
+	"Graphics.h"
+	<sstream>
+	<stdio.h>
+	<cstring>
+	<string>
+
+1658318292 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\graphics.h
+	<SDL.h>
+	<string>
+	<stdio.h>
+	<iostream>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	"Collision.h"
+
+1661245445 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\collision.h
+	<SDL.h>
+
+1605626584 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\audiomanager.h
+	"SDL_mixer.h"
+	"SDL.h"
+	<string>
+	<iostream>
+
+1604412856 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\inputmanager.h
+	<SDL.h>
+	"MathHelper.h"
+
+1604412304 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\mathhelper.h
+	<math.h>
+
+1660911346 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\room.h
+	<vector>
+	<iostream>
+	<memory>
+	"Texture.h"
+	"AudioManager.h"
+	"Collision.h"
+	"Door.h"
+	"Player.h"
+	"Entity.h"
+	<cstring>
+
+1605783846 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\startscreen.h
+	"Texture.h"
+	<iostream>
+	"InputManager.h"
+	"Collision.h"
+	<vector>
+	<memory>
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\begin_code.h
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\close_code.h
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_windows.h
+	"SDL_platform.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_psp.h
+	"SDL_platform.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_os2.h
+	"SDL_platform.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547322290 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561870368 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540997992 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\sdl2-2.0.12\include\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1661242062 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\audiomanager.cpp
+	"AudioManager.h"
+
+1603714836 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\collision.cpp
+	"Collision.h"
+
+1605779400 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\gamemanager.cpp
+	"GameManager.h"
+
+1605793844 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\gamemanager.h
+	"Graphics.h"
+	"ScreenManager.h"
+	"Timer.h"
+	<time.h>
+
+1661243885 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\screenmanager.h
+	"StartScreen.h"
+	"PlayScreen.h"
+	"Collision.h"
+	"PlayerWalkingState.h"
+	"PlayerIdleState.h"
+	"PlayerSwingSwordState.h"
+	"EntityWalkState.h"
+	"EntityIdleState.h"
+	"GameOverState.h"
+	"AudioManager.h"
+
+1605033698 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\timer.h
+	<SDL.h>
+
+1658318680 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\graphics.cpp
+	"Graphics.h"
+
+1661258001 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\inputmanager.cpp
+	<string.h>
+	"InputManager.h"
+
+1605275180 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\main.cpp
+	"GameManager.h"
+
+1661253728 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\room.cpp
+	"Room.h"
+
+1661253333 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\screenmanager.cpp
+	"ScreenManager.h"
+
+1661243391 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\startscreen.cpp
+	"StartScreen.h"
+
+1658841408 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\texture.cpp
+	"Texture.h"
+
+1605033698 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\timer.cpp
+	"Timer.h"
+
+1661407549 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\player.h
+	"Texture.h"
+
+1661253728 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\player.cpp
+	"Player.h"
+
+1660897770 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\playerwalkingstate.cpp
+	"PlayerWalkingState.h"
+
+1660728271 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\playerwalkingstate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+	"AudioManager.h"
+	"Dungeon.h"
+
+1659360093 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\animation.h
+	"Player.h"
+	"Timer.h"
+
+1659360093 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\animation.cpp
+	"Animation.h"
+
+1660728511 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\playeridlestate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+	"PlayerSwingSwordState.h"
+
+1660728568 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\playeridlestate.cpp
+	"PlayerIdleState.h"
+
+1660897657 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\door.h
+	"Texture.h"
+	"Collision.h"
+
+1661254947 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\door.cpp
+	"Door.h"
+
+1659346969 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\dungeon.h
+	"Room.h"
+	"Player.h"
+	"Collision.h"
+	"Animation.h"
+
+1659347466 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\dungeon.cpp
+	"Dungeon.h"
+
+1660730653 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\playerswingswordstate.h
+	"Room.h"
+	"Player.h"
+	"Collision.h"
+	"Animation.h"
+	"Timer.h"
+	"PlayScreen.h"
+	"Entity.h"
+	"AudioManager.h"
+
+1660735973 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\playerswingswordstate.cpp
+	"PlayerSwingSwordState.h"
+
+1661237795 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\entity.h
+	"Texture.h"
+	"Player.h"
+	"Timer.h"
+	"Collision.h"
+
+1660892715 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\entity.cpp
+	"Entity.h"
+
+1660906921 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\entitywalkstate.h
+	"Room.h"
+	"Player.h"
+	"Collision.h"
+	"Animation.h"
+	"Entity.h"
+	"PlayScreen.h"
+
+1661240145 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\entitywalkstate.cpp
+	"EntityWalkState.h"
+
+1661239340 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\entityidlestate.cpp
+	"EntityIdleState.h"
+
+1661239376 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\entityidlestate.h
+	"Collision.h"
+	"Room.h"
+	"PlayScreen.h"
+
+1661247219 c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\gameoverstate.h
+	"Texture.h"
+	"PlayScreen.h"
+	<iostream>
+	"InputManager.h"
+	"Collision.h"
+	<memory>
+
+1661253333 source:c:\users\Кудрявцев\desktop\maya_plan\fltk_code_blocks\testcode\sdl_projects\zelda\gameoverstate.cpp
+	"GameOverState.h"
+
+1659360094 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\animation.cpp
+	"Animation.h"
+
+1659360094 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\animation.h
+	"Player.h"
+	"Timer.h"
+
+1661407550 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\player.h
+	"Texture.h"
+
+1658841410 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\texture.h
+	<iostream>
+	"Graphics.h"
+	<sstream>
+	<stdio.h>
+	<cstring>
+	<string>
+
+1658318294 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\graphics.h
+	<SDL.h>
+	<string>
+	<stdio.h>
+	<iostream>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	"Collision.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\begin_code.h
+
+1583890578 g:\desctop\sdl2-2.0.12\include\close_code.h
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_config_windows.h
+	"SDL_platform.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_config_psp.h
+	"SDL_platform.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_config_os2.h
+	"SDL_platform.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890578 g:\desctop\sdl2-2.0.12\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547322290 g:\desctop\sdl2-2.0.12\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561870368 g:\desctop\sdl2-2.0.12\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1661245446 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\collision.h
+	<SDL.h>
+
+1605033698 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\timer.h
+	<SDL.h>
+
+1661242064 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\audiomanager.cpp
+	"AudioManager.h"
+
+1605626584 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\audiomanager.h
+	"SDL_mixer.h"
+	"SDL.h"
+	<string>
+	<iostream>
+
+1540997992 g:\desctop\sdl2-2.0.12\include\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1603714836 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\collision.cpp
+	"Collision.h"
+
+1661254948 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\door.cpp
+	"Door.h"
+
+1660897658 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\door.h
+	"Texture.h"
+	"Collision.h"
+
+1659347468 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\dungeon.cpp
+	"Dungeon.h"
+
+1659346970 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\dungeon.h
+	"Room.h"
+	"Player.h"
+	"Collision.h"
+	"Animation.h"
+
+1660911348 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\room.h
+	<vector>
+	<iostream>
+	<memory>
+	"Texture.h"
+	"AudioManager.h"
+	"Collision.h"
+	"Door.h"
+	"Player.h"
+	"Entity.h"
+	<cstring>
+
+1661237796 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\entity.h
+	"Texture.h"
+	"Player.h"
+	"Timer.h"
+	"Collision.h"
+
+1660892716 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\entity.cpp
+	"Entity.h"
+
+1661239342 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\entityidlestate.cpp
+	"EntityIdleState.h"
+
+1661239378 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\entityidlestate.h
+	"Collision.h"
+	"Room.h"
+	"PlayScreen.h"
+
+1661258190 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\playscreen.h
+	<vector>
+	<iostream>
+	<memory>
+	"Texture.h"
+	"Collision.h"
+	"AudioManager.h"
+	<cstring>
+	"InputManager.h"
+	"Room.h"
+	"Player.h"
+	"Animation.h"
+	"Dungeon.h"
+
+1604412856 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\inputmanager.h
+	<SDL.h>
+	"MathHelper.h"
+
+1604412304 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\mathhelper.h
+	<math.h>
+
+1661240146 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\entitywalkstate.cpp
+	"EntityWalkState.h"
+
+1660906922 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\entitywalkstate.h
+	"Room.h"
+	"Player.h"
+	"Collision.h"
+	"Animation.h"
+	"Entity.h"
+	"PlayScreen.h"
+
+1605779400 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\gamemanager.cpp
+	"GameManager.h"
+
+1605793844 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\gamemanager.h
+	"Graphics.h"
+	"ScreenManager.h"
+	"Timer.h"
+	<time.h>
+
+1661243886 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\screenmanager.h
+	"StartScreen.h"
+	"PlayScreen.h"
+	"Collision.h"
+	"PlayerWalkingState.h"
+	"PlayerIdleState.h"
+	"PlayerSwingSwordState.h"
+	"EntityWalkState.h"
+	"EntityIdleState.h"
+	"GameOverState.h"
+	"AudioManager.h"
+
+1661497704 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\startscreen.h
+	"Texture.h"
+	<iostream>
+	"InputManager.h"
+	"PlayScreen.h"
+	"Collision.h"
+	<vector>
+	<memory>
+
+1660728272 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\playerwalkingstate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+	"AudioManager.h"
+	"Dungeon.h"
+
+1660728512 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\playeridlestate.h
+	"Collision.h"
+	"PlayScreen.h"
+	"InputManager.h"
+	"PlayerSwingSwordState.h"
+
+1660730654 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\playerswingswordstate.h
+	"Room.h"
+	"Player.h"
+	"Collision.h"
+	"Animation.h"
+	"Timer.h"
+	"PlayScreen.h"
+	"Entity.h"
+	"AudioManager.h"
+
+1661456713 g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\gameoverstate.h
+	"Texture.h"
+	"PlayScreen.h"
+	<iostream>
+	"InputManager.h"
+	"Collision.h"
+	<memory>
+
+1661497005 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\gameoverstate.cpp
+	"GameOverState.h"
+
+1658318682 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\graphics.cpp
+	"Graphics.h"
+
+1661258002 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\inputmanager.cpp
+	<string.h>
+	"InputManager.h"
+
+1605275180 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\main.cpp
+	"GameManager.h"
+
+1661253730 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\player.cpp
+	"Player.h"
+
+1661458728 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\playeridlestate.cpp
+	"PlayerIdleState.h"
+
+1660735974 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\playerswingswordstate.cpp
+	"PlayerSwingSwordState.h"
+
+1661461350 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\playerwalkingstate.cpp
+	"PlayerWalkingState.h"
+
+1661857846 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\playscreen.cpp
+	"PlayScreen.h"
+	"StartScreen.h"
+
+1661253730 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\room.cpp
+	"Room.h"
+
+1661858260 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\screenmanager.cpp
+	"ScreenManager.h"
+
+1661497740 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\startscreen.cpp
+	"StartScreen.h"
+
+1658841410 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\texture.cpp
+	"Texture.h"
+
+1605033698 source:g:\desctop\fltk_code_blocks\testcode\sdl_projects\zelda\timer.cpp
+	"Timer.h"
+
+1604412302 g:\desctop\fltk_code_blocks\testcode\sdl_projects\pong_sdl_1\mathhelper.h
+	<math.h>
+
